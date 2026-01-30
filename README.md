@@ -1,6 +1,6 @@
-# shop-project — Monitoring pipeline for e-commerce (Big Data Methods)
+# shop-project — Система мониторинга интернет-магазина
 
-End-to-end локальная система генерации и обработки данных, имитирующая production data pipeline интернет-магазина.
+End-to-end локальная система генерации и обработки данных, имитирующая продакшн интернет-магазина.
 
 ## Архитектура
 **Generator (Python)** → **RabbitMQ** → **Collector (Python)** → **ClickHouse** → **Grafana**
