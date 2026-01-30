@@ -46,7 +46,7 @@ services:
     environment:
       - RABBIT_HOST=rabbitmq
       - RABBIT_QUEUE=events_q
-      - SCENARIO=normal
+      - SCENARIO=traffic_spike
       - EVENTS_PER_MIN=1800
       - SEED=42
     depends_on:
